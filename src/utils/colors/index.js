@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 const mainColors = {
   green1: '#0BCAD4',
   green2: '#EDFCFD',
@@ -20,12 +21,14 @@ export const colors = {
   tertiary: mainColors.blue1,
   white: 'white',
   black: 'black',
+  black2: 'rgba(0,0,0,0.9)',
   disable: mainColors.grey3,
   text: {
     primary: mainColors.dark1,
     secondary: mainColors.grey1,
     menuInactive: mainColors.dark2,
-    menuActive: mainColors.green1,
+    // menuActive: mainColors.green1,
+    menuActive: 'white',
     subTitle: mainColors.dark3,
   },
   button: {
